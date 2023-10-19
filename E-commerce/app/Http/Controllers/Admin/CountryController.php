@@ -36,8 +36,8 @@ class CountryController extends Controller
 
     public function insert_country(AddCountryRequest $request)
     {
-        // $country_name = Country::all();
-        // $country_name = Country::select('name')->get();
+        
+        
         $country = new Country();
         $country->name = $request->name;
         //  $country->name = $request->name;
